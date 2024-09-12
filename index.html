@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GoTravel</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Go<span>Travel</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Discover Places</a></li>
+        <li><a href="#">Our Offers</a></li>
+        <li><a href="#">Travel Stories</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Get in Touch</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn sign__up">Sign Up</button>
+        <button class="btn sign__in">Sign In</button>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="ri-key-line"></i></span>
+          Hotel Booking
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="ri-passport-line"></i></span>
+          Book Flight
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="ri-map-2-line"></i></span>
+          Local Events
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="ri-guide-line"></i></span>
+          Tour Guide
+        </div>
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>Ready to Explore?<br />Your <span>Adventure</span> Awaits!</h1>
+        <p>
+          "Begin your journey today and explore the hidden gems of the world. An adventure of a lifetime awaits you, promising thrilling experiences, lasting memories, and boundless opportunities."
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Destination</h5>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="Bali, Indonesia" />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Date</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="17 Sept 2024" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Search</button>
+        </form>
+        <div class="bar">
+          Copyright © 2024 . All rights reserved.
+        </div>
+      </div>
+    </header>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
